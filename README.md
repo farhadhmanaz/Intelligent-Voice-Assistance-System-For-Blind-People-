@@ -57,13 +57,11 @@
         $ sudo nano /boot/config.txt
      
 ### At the end of the file add the following lines:
-      
       dtparam=spi=on
       dtoverlay=pi3-disable-bt
       core_freq=250
       enable_uart=1
       force_turbo=1
-      
  ### You need to backup for the cmd so raspbian uses the UART as a serial console and so we need to turn off that functionality. To do so we need to change the      /boot/cmdline.txt file. 
  ```
    $ sudo cp /boot/cmdline.txt /boot/cmdline_backup.txt
