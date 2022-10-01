@@ -65,7 +65,7 @@
  ### You need to backup for the cmd so raspbian uses the UART as a serial console and so we need to turn off that functionality. To do so we need to change the      /boot/cmdline.txt file. 
  ```
    $ sudo cp /boot/cmdline.txt /boot/cmdline_backup.txt
-```
+ ```
 ### Open the file in a text editor and edit it.
    ```
    $ sudo nano /boot/cmdline.txt
