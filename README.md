@@ -76,6 +76,7 @@
    $ sudo gpsd /dev/ttyAMA0 -F /var/run/gpsd.sock
 
 ## To check Whether we are connected with satelite and Lat Long is recieved use any one of the below given command.
+
  $ sudo cgps -s
  $ sudo gpsmon
  
