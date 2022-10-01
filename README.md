@@ -71,9 +71,9 @@
    $ sudo nano /boot/cmdline.txt
    ```
 ### Replace the content with the following line (delete everything in it and write down the following content)
-    ```
+    
    $ dwc_otg.lpm_enable=0 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait quiet splash plymouth.ignore-serial-consoles
-    ```
+    
 ### Now reboot pi using:
    ```
    $ sudo reboot
